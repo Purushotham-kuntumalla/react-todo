@@ -1,0 +1,40 @@
+/* App.css */
+
+/* Base styles for .App */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styles for .task-input */
+.task-input {
+  margin-bottom: 20px;
+}
+
+/* Styles for .task-item */
+.task-item {
+  margin-bottom: 10px;
+}
+
+/* Styles for .completed */
+.completed {
+  text-decoration: line-through;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+  /* Adjusting margin-top for .App */
+  .App {
+    margin-top: 30px; /* Decreasing margin */
+  }
+
+  /* Adjusting margin-bottom for .task-input */
+  .task-input {
+    margin-bottom: 10px; /* Decreasing margin */
+  }
+
+  /* Adjusting margin-bottom for .task-item */
+  .task-item {
+    margin-bottom: 5px; /* Decreasing margin */
+  }
+}

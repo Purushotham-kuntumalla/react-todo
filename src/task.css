@@ -1,0 +1,18 @@
+/* Base styles for input */
+input {
+    padding: .7rem;
+    outline: none;
+    width: 250px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    /* Adjusting width for input */
+    input {
+        width: calc(100% - 20px); /* Set width to fill the available space, considering margin */
+        margin-right: 0; /* Remove right margin */
+    }
+}

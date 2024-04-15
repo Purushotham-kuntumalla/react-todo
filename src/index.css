@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Base styles for body */
+body {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Base styles for unordered lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for h1 */
+h1 {
+  color: #91EAE4;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 2px 1px 4px #000;
+}
+
+/* Styles for list items */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Styles for checkboxes */
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+/* Styles for buttons */
+button {
+  background-color: #E1F7F5;
+  font-family: "Platypi", serif;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: .67rem;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #F9F07A;
+  transform: scale(.9);
+  transition: all .5s ease-in-out;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+  /* Adjusting max-width and padding for body */
+  body {
+    max-width: 100%; /* Adjusting to full width */
+    padding: 10px; /* Decreasing padding */
+  }
+
+  /* Adjusting font size for h1 */
+  h1 {
+    font-size: 2rem; /* Decreasing font size */
+  }
+
+  /* Adjusting margin-right for buttons */
+  button {
+    margin-right: 10px;
+     /* Decreasing margin */
+     margin-top: 20px;
+  }
+}

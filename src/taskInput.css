@@ -1,0 +1,57 @@
+/* Base styles for li, h2, .done span, .buttons, .btn */
+li {
+    box-shadow: 2px 1px 5px 3px #000;
+    color: #fff;
+    background-color: #070f2b;
+    border-left: 4px solid #f72798;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 1px 4px #000;
+}
+
+.done span {
+    color: #fff;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    /* Adjusting styles for li */
+    li {
+        padding: 0.3rem; /* Decrease padding */
+        font-size: 0.9rem; /* Decrease font size */
+    }
+
+    /* Adjusting styles for h2 */
+    h2 {
+        font-size: 1.5rem; /* Decrease font size */
+    }
+
+    /* Adjusting styles for .btn */
+    .btn {
+        width: 40px; /* Decrease button width */
+        height: 40px; /* Decrease button height */
+    }
+}
